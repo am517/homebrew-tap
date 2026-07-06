@@ -56,7 +56,7 @@ cask "font-saikanji-balanced-gradient-grid"
 
 - **Project homepage & live demo**: [saikanji.moore.is](https://saikanji.moore.is)
 - **Source & releases**: [github.com/am517/SaiKanji](https://github.com/am517/SaiKanji)
-- **Font license**: [CC BY-SA 4.0]((https://github.com/am517/SaiKanji/LICENSE.md))
+- **Font license**: [CC BY-SA 4.0](https://github.com/am517/SaiKanji/LICENSE.md)
 
 ## Documentation
 
