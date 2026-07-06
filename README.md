@@ -5,6 +5,8 @@
 
 A [Homebrew](https://brew.sh) tap for **SaiKanji** — a colorful, stroke-order-aware font based on KanjiVG.
 
+![SaiKanji Preview](https://github.com/am517/SaiKanji/blob/main/saikanji.jpg)
+
 ## Available Fonts
 
 This tap provides **one cask per font variant**. Each cask installs the corresponding `.ttf` file from the [SaiKanji GitHub releases](https://github.com/am517/SaiKanji/releases).
