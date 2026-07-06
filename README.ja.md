@@ -3,7 +3,9 @@
 
 # SaiKanji Tap
 
-**SaiKanji** 向けの [Homebrew](https://brew.sh) タップ — KanjiVGを基にした、カラフルで筆順対応のフォント。
+[**SaiKanji (彩漢字)**](https://saikanji.moore.is) 向けの [Homebrew](https://brew.sh) タップ — KanjiVGを基にした、カラフルで筆順対応のフォント。
+
+![SaiKanji プレビュー](https://github.com/am517/SaiKanji/blob/main/saikanji.jpg)
 
 ## 提供フォント
 
