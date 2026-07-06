@@ -3,7 +3,7 @@
 
 # SaiKanji Tap
 
-A [Homebrew](https://brew.sh) tap for **SaiKanji** — a colorful, stroke-order-aware font based on KanjiVG.
+A [Homebrew](https://brew.sh) tap for [**SaiKanji (彩漢字)**](https://saikanji.moore.is) — a colorful, stroke-order-aware font based on KanjiVG.
 
 ![SaiKanji Preview](https://github.com/am517/SaiKanji/blob/main/saikanji.jpg)
 
