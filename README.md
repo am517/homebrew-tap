@@ -17,6 +17,10 @@ You can browse the available fonts with:
 brew search font-saikanji
 ```
 
+## Formulae
+
+- **jack**: tags and sorts movie and TV files using TMDB/TheTVDB metadata ([am517/jack](https://github.com/am517/jack)). Install: `brew install am517/tap/jack`
+
 ## Installation
 
 ### 1. Add the tap
