@@ -1,8 +1,8 @@
 class Jack < Formula
   desc "Tag and sort movie and TV files using TMDB and TheTVDB metadata"
   homepage "https://github.com/am517/jack"
-  url "https://github.com/am517/jack/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "b22873f97699ed4d378ec1d62fb7d735cd2d79c83cd427188208ef6b676d614e"
+  url "https://github.com/am517/jack/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "956a13abeffe2ae02a0190960da1660a82d8ddd8b209901aefabf7e03a10f52d"
   license "MIT"
   head "https://github.com/am517/jack.git", branch: "main"
 
@@ -13,16 +13,17 @@ class Jack < Formula
 
   def install
     # Optional build-time API keys (never stored in the formula):
-    #   HOMEBREW_JACK_TMDB_TOKEN=... HOMEBREW_JACK_TVDB_KEY=... brew install --build-from-source am517/tap/jack
+    #   HOMEBREW_JACK_TMDB_TOKEN=... HOMEBREW_JACK_TVDB_KEY=... HOMEBREW_JACK_OMDB_KEY=... brew install --build-from-source am517/tap/jack
     ENV["JACK_TMDB_TOKEN"] = ENV["HOMEBREW_JACK_TMDB_TOKEN"] if ENV["HOMEBREW_JACK_TMDB_TOKEN"].present?
     ENV["JACK_TVDB_KEY"] = ENV["HOMEBREW_JACK_TVDB_KEY"] if ENV["HOMEBREW_JACK_TVDB_KEY"].present?
+    ENV["JACK_OMDB_KEY"] = ENV["HOMEBREW_JACK_OMDB_KEY"] if ENV["HOMEBREW_JACK_OMDB_KEY"].present?
     system "cargo", "install", *std_cargo_args
     pkgshare.install "config/jack.toml" => "config.toml.example"
   end
 
   def caveats
     <<~EOS
-      Copy the example config and add your TMDB / TheTVDB API keys:
+      Copy the example config and add your TMDB / TheTVDB / OMDb API keys:
         mkdir -p ~/.config/windups/jack
         cp #{opt_pkgshare}/config.toml.example ~/.config/windups/jack/config.toml
     EOS
