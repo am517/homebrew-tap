@@ -19,7 +19,7 @@ brew search font-saikanji
 
 ## Formulae
 
-- **jack**: tags and sorts movie and TV files using TMDB/TheTVDB metadata ([am517/jack](https://github.com/am517/jack)). Install: `brew install am517/tap/jack`
+- **jack**: tags and sorts movie and TV files using TMDB/TheTVDB metadata ([am517/windups](https://github.com/am517/windups), folder `jack/`). Install: `brew install am517/tap/jack`
 
 ## Installation
 
