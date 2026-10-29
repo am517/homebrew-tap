@@ -19,7 +19,7 @@ brew search font-saikanji
 
 ## フォーミュラ
 
-- **jack**: TMDB/TheTVDBのメタデータで映画・TV番組ファイルにタグ付けして整理するツール ([am517/jack](https://github.com/am517/jack))。インストール: `brew install am517/tap/jack`
+- **jack**: TMDB/TheTVDBのメタデータで映画・TV番組ファイルにタグ付けして整理するツール ([am517/windups](https://github.com/am517/windups) の `jack/`)。インストール: `brew install am517/tap/jack`
 
 ## インストール方法
 
